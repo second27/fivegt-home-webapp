@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+	<!-- 기본 전체 레이아웃 -->
+	<definition name="layout" template="/layout/layout.ftl" >
+		<put-attribute name="header" value="/layout/header.ftl" />
+		<put-attribute name="content" value="" />
+		<put-attribute name="footer" value="/layout/footer.ftl" />
+	</definition> 
+
+	<!-- 기본 전체 레이아웃_사이드바 -->
+	<definition name="layoutSidebar" template="/layout/layoutSidebar.ftl" >
+		<put-attribute name="header" value="/layout/header.ftl" />
+		<put-attribute name="sidebar" value="" />
+		<put-attribute name="content" value="" />
+		<put-attribute name="footer" value="/layout/footer.ftl" />
+	</definition> 
+
+	
+	<!-- definition name은 REST Service 메소드의 return 값 -->	
+	<!-- value 앞에 "/"가 없으면 Text로 인식하고 그대로 출력 -->
+	<definition name="index" extends="layout">
+		<put-attribute name="content"   value="/index.ftl" />
+	</definition>
+
+	<definition name="menu/*"  extends="layoutSidebar" >
+		<put-attribute name="sidebar" value="/menu/menuSidebar.ftl" />
+		<put-attribute name="content" value="/menu/{1}.ftl" />
+	</definition>
+	
+</tiles-definitions>
+
