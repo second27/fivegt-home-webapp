@@ -1,7 +1,8 @@
 <table border='0' width='100%'>
 	<tr>
-		<td align='left'> <hr noshade size=2 width=20 color='blue'> </td>
-		<td align='right'> <hr noshade size=2 width=20 color='blue'> </td>
+		<td width='20px'> <hr noshade size=2 width=20 color='blue'> </td>
+		<td width='100%'> </td>
+		<td width='20px'> <hr noshade size=2 width=20 color='blue'> </td>
 	</tr>
 </table>
 <table width='100%'>

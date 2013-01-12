@@ -14,4 +14,9 @@ public class HomeController {
 		return "home/home";
 	}
 	
+	@RequestMapping(value ={"/siteMap"}, method = RequestMethod.GET)
+	public String siteMap() {
+		return "home/siteMap";
+	}
+	
 }

@@ -3,11 +3,11 @@
 <table border='0'>
 	<tr>
 		<td rowspan='2'>
-			<img src='/resources/images/Logo.jpg' />
+			<a href="/"><img src='/resources/images/Logo.jpg' /></a>
 		</td>
 		
 		<td align='right' colspan='2' width='100%'>
-			SITEMAP | CONTACUS
+			<a href="/siteMap">SITEMAP</a> | <a href="/company/contacUs">CONTACUS</a>
 		</td>
 
 	</tr>
@@ -17,33 +17,33 @@
 		<td>
 			<ul id="topnav">
 				<li>
-		            <a href="">COMMUNITY</a>
-		             <span>
-		                <a href="">FaceRecognition</a>
-		             </span>
+		            <a href="/community">COMMUNITY</a>
 		        </li>
+		        <li> | </li>
 		        <li>
-		            <a href="">BUSINESS</a>
+		            <a href="/business/faceRecognition">BUSINESS</a>
 		            <span>
-		                <a href="">FaceRecognition</a> |
-		                <a href="">ANC</a> |
-		                <a href="">Design</a> |
-		                <a href="">Engineering</a> |
-		                <a href="">FireDitection</a>
+		                <a href="/business/faceRecognition">FaceRecognition</a> 
+		                <a href="/business/anc">ANC</a> 
+		                <a href="/business/design">Design</a> 
+		                <a href="/business/engineering">Engineering</a> 
+		                <a href="/business/fireDitection">FireDitection</a>
 		            </span>
 		        </li>
+		        <li> | </li>
 		         <li>
-		            <a href="">COMPANY</a>
+		            <a href="/company">COMPANY</a>
 		            <span>
-		                <a href="">Company</a> |
-		                <a href="">Greeting</a> |
-		                <a href="">Organization</a> |
-		                <a href="">Ideology</a> |
-		                <a href="">FiveGT</a> |
-		                <a href="">ContacUs</a>
+		                <a href="/company">Company</a> 
+		                <a href="/company/greeting">Greeting</a> 
+		                <a href="/company/organization">Organization</a> 
+		                <a href="/company/ideology">Ideology</a> 
+		                <a href="/company/fiveGT">FiveGT</a> 
+		                <a href="/company/contacUs">ContacUs</a>
 		            </span>
 		        </li>
-		        <li><a href="">Home</a></li>
+		        <li> | </li>
+		        <li><a href="/">Home</a></li>
 		       
 		        
 		        
@@ -53,4 +53,3 @@
 	
 </table>
 </div>
-<hr />
