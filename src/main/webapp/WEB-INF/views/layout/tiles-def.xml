@@ -24,8 +24,8 @@
 	
 	<!-- definition name은 REST Service 메소드의 return 값 -->	
 	<!-- value 앞에 "/"가 없으면 Text로 인식하고 그대로 출력 -->
-	<definition name="home/home" extends="layout">
-		<put-attribute name="content"   value="/index.ftl" />
+	<definition name="home/*" extends="layout">
+		<put-attribute name="content"   value="/home/{1}.ftl" />
 	</definition>
 
 	<definition name="company/*"  extends="layoutSidebar" >
