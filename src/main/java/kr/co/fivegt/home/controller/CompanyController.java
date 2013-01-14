@@ -28,9 +28,9 @@ public class CompanyController {
 		return "company/ideology";
 	}
 	
-	@RequestMapping(value ={"/fiveGT"}, method = RequestMethod.GET)
+	@RequestMapping(value ={"/fivegt"}, method = RequestMethod.GET)
 	public String fiveGT() {
-		return "company/fiveGT";
+		return "company/fivegt";
 	}
 	
 	@RequestMapping(value ={"/contacUs"}, method = RequestMethod.GET)

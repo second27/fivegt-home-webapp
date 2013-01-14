@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>template</title>
+	<title>FiveGT</title>
 	
 	<#include "importLib.ftl">
 </head>
