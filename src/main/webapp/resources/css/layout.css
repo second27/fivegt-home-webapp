@@ -17,7 +17,7 @@ border: 0px none;
 
 body {
 	width: 1000px;
-	font-size: 12px;
+	font-size: 10px;
 	font-family: "Arial Rounded MT Bold", Arial, sans-serif;
 	margin-left: auto;
 	margin-right: auto;
@@ -31,7 +31,7 @@ body {
 }
 
 #sidebar {
-	font-size: 15px;
+	font-size: 14px;
 	width: 200px;
 	margin-left: 2px;
 	float: left;
@@ -46,7 +46,7 @@ body {
 	position: relative;
 	min-height: 500px;
 	overflow: hidden;
-	margin-top: 10px;
+	
 }
 
 #content_index {
@@ -73,6 +73,10 @@ body {
 }
 
 #font_blue {
+	color: blue;
+}
+
+.font_blue {
 	color: blue;
 }
 
@@ -113,6 +117,7 @@ ul#topnav {
 ul#topnav li {
 	float: right;
 	padding: 3px 0px 3px 0px;
+		color: blue;
 	/* border-right: 1px solid #555; */
 }
 ul#topnav li a {
@@ -149,8 +154,10 @@ ul#topnav li span a {
 	color: #c0c0c0;
 }
 
+
 ul#topnav li span a:hover {
 	color: white;
+	font-weight:bold;
 }
 
 

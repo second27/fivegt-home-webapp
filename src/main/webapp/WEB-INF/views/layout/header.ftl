@@ -7,7 +7,7 @@
 		</td>
 		
 		<td align='right' colspan='2' width='100%'>
-			<a href="/siteMap">SITEMAP</a> | <a href="/company/contacUs">CONTACUS</a>
+			<a href="/siteMap">SITEMAP</a> | <a href="/company/contacUs">CONTAC US</a>
 		</td>
 
 	</tr>
@@ -43,7 +43,7 @@
 		            </span>
 		        </li>
 		        <li> | </li>
-		        <li><a href="/">Home</a></li>
+		        <li><a href="/">HOME</a></li>
 		       
 		        
 		        
